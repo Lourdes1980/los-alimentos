@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>5. Hacemos un recetario de cocina | RED-CETAS </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Lourdes Siles " />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+
+    .lf {
+        font-size: 14pt;
+        line-height: 1.5em;
+    }
+    
+    div.lf * {
+        font-size: 14pt;
+        line-height: 1.5em;
+    }
+    
+    div.lf ul, ol {
+        overflow: hidden;
+    }
+    
+    .diccionario dt {
+        font-weight: bold;
+    }
+    
+    .diccionario dl {
+        overflow: hidden;
+    }
+    
+    div.diccionario figure {
+        max-width: 100px;
+        max-height: 100px;
+        float: left;
+        margin: 0px 10px 10px 0px;
+    } 
+    div.exe-tooltip-text figure, 
+    div.exe-tooltip-text img {
+        max-width: 100px;
+        max-height: 100px;
+        float: left;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    .pasos img {
+        max-width: 250px;
+        max-height: 250px;
+        margin-right: 10px;        
+    }
+
+    li audio {
+        margin-left: 5px;
+        clear: none;
+    }
+
+    video, audio {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .udl-btn {
+        border-radius: 5px;
+    }
+
+    .definition-tt {
+        font-weight: bold;
+    }
+    .dImgTxtCen {
+        display: flex;
+        align-items: center;
+        margin: 5px;
+    }
+    .imgTxtCen {
+        flex-shrink: 0;
+    }
+    .iDeviceTitle {
+        top: auto;
+    }
+    img[style *= "float: left"]{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    img[style *= "float:left"]{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .creditos {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;  
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .flexbox-container {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;  
+        width: 100%;
+        justify-content: center;
+    }
+
+    .flexbox-container > figure {
+      background: none;
+      margin: 10px 10px 0px 0px;
+      padding: 0px;
+    }    
+    
+    .break {
+        flex-basis: 100%;
+        height: 0;
+        margin: 0px;        
+    }
+    
+    div.creditos figure {
+        margin: 20px;
+        text-align: center;
+    }
+
+    div.creditos img {
+        max-width: 200px !important;
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: white;
+    }
+
+    div.creditos figcaption {
+        max-width: 200px;
+        text-align: left;
+        margin: 0 auto;
+        white-space: pre-line;
+        word-wrap: break-word;
+    }
+    div.creditosUrl {
+        border: 2px solid black;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        max-width: 200px;
+        padding: 8px;
+    }
+    div.creditos audio {
+        max-width: 200px;
+    }
+    div.creditos video {
+        max-width: 200px;
+    }
+
+</style></head>
+<body class="exe-web-site" id="exe-node-48"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">RED-CETAS</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Red-cetas</a></li>
+   <li><a href="1_puedo_comer_lo_que_quiera.html" class="no-ch">1. ¿Puedo comer lo que quiera?</a></li>
+   <li><a href="2_platos_saludables.html" class="no-ch">2. Platos saludables</a></li>
+   <li><a href="3_explorando_recetas.html" class="no-ch">3. Explorando recetas</a></li>
+   <li><a href="4_redceteando.html" class="daddy">4. Red-ceteando</a>
+   <ul class="other-section">
+      <li><a href="41_bon_apptit.html" class="no-ch">4.1. Bon appétit!</a></li>
+      <li><a href="42_juntando_las_recetas_de_cocina.html" class="no-ch">4.2. Juntando las recetas de cocina</a></li>
+      <li><a href="43_ensalada_de_puntos.html" class="no-ch">4.3. Ensalada de puntos</a></li>
+      <li><a href="44_conectando_una_receta.html" class="no-ch">4.4. Conectando una receta</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="5_hacemos_un_recetario_de_cocina.html" class="active no-ch">5. Hacemos un recetario de cocina</a></li>
+   <li><a href="6_recetario_sano_y_saludable.html" class="no-ch">6. Recetario sano y saludable</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="44_conectando_una_receta.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_recetario_sano_y_saludable.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">5. Hacemos un recetario de cocina</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id889">
+<div class="iDevice emphasis0" >
+<div id="ta889_152_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2><span class="sr-av">Diccionario </span>Diccionario</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion diccionario">
+<h2>Aportar</h2>
+<figure><img src="aportar.png" alt="Mujer con pelota roja y flecha señalándola." title="Aportar" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Añadir, dar, contribuir.</dd>
+<dt>Ejemplo:</dt>
+<dd>Su grupo realizó aportaciones muy interesantes sobre el cambio climático.</dd>
+</dl>
+<h2>Corregir</h2>
+<figure><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Revisar" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Reunión de todo el grupo para hablar sobre temas de interés común y tomar decisiones.</dd>
+<dt>Ejemplo:</dt>
+<dd>En la asamblea decidimos ver una película.</dd>
+</dl>
+<h2>Intercambiar</h2>
+<figure><img src="intercambiar.png" alt="Imagen que representa a dos personas que se están intercambiando entre sí una pelota roja y una amarilla." title="Intercambiar" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Cambiar mensajes, objetos... con dos o más personas.</dd>
+<dt>Ejemplo:</dt>
+<dd>Los niños intercambiaron los cromos repetidos.</dd>
+</dl>
+<h2>Proponer</h2>
+<figure><img src="proponer.png" alt="Imagen que representa a dos personas hablando entre sí. Una de ellas tiene la boca abierta y sale un bocadillo dentro del cual hay una bombilla entre signos de exclamación. " title="Proponer" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Recomendar o presentar una tarea.</dd>
+<dt>Ejemplo:</dt>
+<dd>Te propongo que escribas una carta.</dd>
+</dl>
+<h2>Revisar</h2>
+<figure><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Revisar" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Examinar algo con cuidado y atención.</dd>
+<dt>Ejemplo:</dt>
+<dd>Es importante revisar el trabajo antes de entregarlo.</dd>
+</dl>
+<h2>Valorar</h2>
+<figure><img src="evaluador.png" alt="Dibujo donde se ve en primer plano una hoja de evaluación con varios elementos marcados en verde y un 9 rodeado con un círculo. Al fondo se ve la silueta de una persona. " title="Valorar" width="500" height="500"></figure>
+<dl>
+<dt>Definición:</dt>
+<dd>Reconocer el mérito y el esfuerzo de una persona.</dd>
+<dt>Ejemplo:</dt>
+<dd>El maestro valora el esfuerzo del equipo.</dd>
+</dl>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id136">
+<div class="iDevice emphasis0" >
+<div id="ta136_886_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="IMG_05_4.1_1_1.jpg" alt="Rétor está en una cocina, delante de él hay una placa para cocinar, a su derecha un recipiente con cucharón y unas varillas. A su izquierda, en la parte superior, hay tres utensilios de cocina más. Rétor va vestido de cocinero, con uniforme y gorro blanco, lleva un plato tapado en su mano izquierda." title="Rétor en la cocina" style="float: left;" width="250" height="250"></p>
+<p>¡Ha llegado el momento!&nbsp;</p>
+<p>Ya podéis superar con éxito el reto. Os recuerdo que os pedí que me ayudarais a hacer un recetario con recetas de cocina saludables.</p>
+<p>Vamos paso a paso.</p></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="lf">
+<p>¡Ha llegado el momento!</p>
+<p>Ya podéis superar el reto.</p>
+<p>Ahora vamos a hacer el recetario con recetas saludables.</p>
+<p>Vamos paso a paso.</p>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article><article class="exe-udlContent-content-audio js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Audio</h2></header><p><audio controls="controls" src="AUD_LEN1PRI_REA05_recetario.mp3"><a href="AUD_LEN1PRI_REA05_recetario.mp3">audio/mpeg</a></audio></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tareagrupal" id="id137">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">1. ¡Hacemos nuestro recetario de cocina!</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta137_887_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="IMG_05_01_1_1.jpg" alt="Rétor lleva un gorro blanco de cocinero, una chaqueta blanca con botones y una bandeja en la mano cubierta por una tapadera redonda." title="Rétor cocinero" style="float: left;" width="125" height="125"></p>
+<p>¡Ha llegado el momento de hacer el reto!&nbsp;</p>
+<p>Voy a ayudaros a hacer vuestro recetario. Si me acompañáis os enseñaré el camino.</p></div></div></section><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-paginated">
+<h2>Primero</h2>
+<p>En equipo, vais a proponer platos de cocina en forma de lluvia de ideas. Después, elegid las más saludables.</p>
+<p>Ayúdate de la rutina de pensamiento <a href="lluvia_de_ideas...pdf" target="_blank" title="Abre plantilla para realizar 'Lluvia de ideas'" rel="noopener">lluvia de ideas</a>:</p>
+<ol>
+<li>Ten claro el tema del que se va a hablar.</li>
+<li>Piensa recetas que te gusten, intenta que sean saludables.</li>
+<li>Propón tus recetas al resto del grupo. ¡Todas valen!</li>
+<li>Finalmente, señalad las que creéis que son más saludables.</li>
+</ol>
+<p>Elegid cada persona del equipo una de las recetas que habéis seleccionado como saludables. Es importante que conozcáis cómo se hace ese plato, si no, podéis investigarlo.</p>
+<video style="display: block; margin-left: auto; margin-right: auto;" controls="controls" width="560" height="240">
+    <source src="https://edea.juntadeandalucia.es/bancorecursos/file/ad61c679-6ffb-4e54-890a-0a9fb8b55ba8/1/VID_LEN1PRI_REA05_Recetario.mp4" type="video/mp4">
+    <track label="Español" src="VID_LEN1PRI_REA05_Recetario.vtt" kind="subtitles" srclang="es" default=""></video>
+<p style="text-align: center;"><a href="VID_LEN1PRI_REA05_Recetario.txt" target="_blank" title="Abre texto del vídeo" rel="noopener">Recetario de cocina</a></p>
+<h2>Segundo</h2>
+<p>Cada persona del equipo escribe la receta en una <a href="ESCRIBE_TU_RECETA.pdf" target="_blank" title="Abre plantilla 'Escribe tu receta'" rel="noopener">plantilla como esta</a>. Podéis añadir imágenes de los ingredientes, los pasos de elaboración o el resultado final.</p>
+<p>Cuando lo hayáis hecho, intercambiad la receta con otra persona del equipo para valorarlas. Podéis utilizar <a href="Evaluo_mi_receta.pdf" target="_blank" title="Abre plantilla 'Evalúo mi receta'" rel="noopener">esta lista</a>.</p>
+<p><img src="IMG_05_05_PASO2.jpg" alt="Aparece una tabla con indicadores para valorar la receta escrita. Rétor está vestido de cocinero y para valorar cada indicador Rétor aparece en verde y en rojo." title="Valoramos la receta" style="display: block; margin-left: auto; margin-right: auto;" width="499" height="280"><br>Mejorad después la receta con las aportaciones de los compañeros y compañeras.</p>
+<h2>Tercero</h2>
+<p>Enseñad a vuestra maestra o maestro lo que habéis hecho para que lo <a href="#tb6c91e46-e99a-c64d-10c5-66ed24b77076" id="linkb6c91e46-e99a-c64d-10c5-66ed24b77076" class="exe-tooltip definition-tt titled-tt" title="Revisar | Revisar">revise</a> y después, haced la receta corregida en una nueva plantilla.</p>
+<p><img src="IMG_05_05_paso3_1.jpg" alt="Un maestro dialoga con una alumna sobre la hoja que esta le presenta." title="Evaluación compartida" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="500"></p>
+<h2>Cuarto</h2>
+<p>En asamblea, ordenad las recetas según sean desayuno, comida o cena. También podéis hacerlo por orden alfabético.</p>
+<p><img src="IMG_05_05_PASO4.gif" alt="Rétor lee un recetario, arriba está todo el abecedario escrito." title="El abecedario" style="display: block; margin-left: auto; margin-right: auto;" width="499" height="281"></p>
+<h2>Quinto</h2>
+<p>En grupo, vais a hacer la portada del recetario.</p>
+<p>¿Recordáis cómo se hacía una portada? En grupo haced una para vuestro recetario.&nbsp; Para hacerla usad la técnica de lápices al centro contando lo que haríais antes de crearla.</p>
+<p><img src="IMG_04_05_PASO6_LAPICES_AL_CENTRO_1.jpg" alt="UN GRUPO DE PERSONAS ALREDEDOR DE UNA MESA CON UN RELOJ QUE DICEN QUE ES IMPORTANTE QUE TODOS OPINEN ANTES DE ESCRIBIR EN EQUIPO." title="Lápices al centro" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="375"></p>
+<p>Es importante que todas las personas del equipo participen. Para eso, podéis ayudaros de una <a href="PORTADA_DEL_RECETARIO.pdf" target="_blank" title="Abre plantilla 'Portada del recetario'" rel="noopener">plantilla como esta</a>. Cada persona del equipo puede hacer su propia versión. Después, podéis recortar las partes y pegarlas mezclando vuestras propuestas en una nueva plantilla.</p>
+<p><img src="IMG_05_05_PASO5_1.png" alt="Una portada con cuatro apartados, indica título, hay una ilustración de Rétor en la cocina, indica que se cite a las personas que participan en la elaboración del recetario y el nombre del colegio al que pertenecen." title="Ejemplo de portada" style="display: block; margin-left: auto; margin-right: auto;" width="300" height="400"></p>
+<h2>Sexto</h2>
+<p>Es el momento de elegir la portada para el recetario de vuestra clase. Para ayudaros a decidir cuál va a ser, podéis utilizar una <a href="Evaluo_mi_portada.pdf" target="_blank" title="Abre plantilla 'Evalúo mi portada'" rel="noopener">lista como esta</a>:</p>
+<p><img src="IMG_05_05_06.jpg" alt="Aparece una tabla con indicadores para valorar la portada. Rétor está vestido de cocinero y para valorar cada indicador Rétor aparece en verde y en rojo." title="Valoramos la portada" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="274"></p>
+<h2>Séptimo</h2>
+<p>En asamblea, elaborad la contraportada. Podéis hacerla con la técnica “<a href="https://edea.juntadeandalucia.es/bancorecursos/file/6ad4ad0e-36f1-4599-9ee2-416d9a226360/1/guia_colaborativo_REA_Andalucia.zip/folio_giratorio.html" target="_blank" title="Abre recurso explicativo" rel="noopener">folio giratorio</a>”. Es el momento de explicar brevemente algunos detalles sobre las recetas que contiene el recetario.</p>
+<video style="display: block; margin-left: auto; margin-right: auto;" controls="controls" width="560" height="240">
+    <source src="https://edea.juntadeandalucia.es/bancorecursos/file/8b627aab-3789-4c91-bde5-dc10b6278d86/1/VID_LEN1PRI_REA04_FolioGiratorio_V01.mp4" type="video/mp4">
+    <track label="Español" src="VID_LEN1PRI_REA04_FolioGiratorio_V01.vtt" kind="subtitles" srclang="es" default=""></video>
+<p style="text-align: center;"><a href="VID_LEN1PRI_REA04_FolioGiratorio_V01.txt" target="_blank" title="Abre texto del vídeo" rel="noopener"> Folio giratorio. </a></p>
+<h2>Octavo</h2>
+<p>Una vez que tengáis la portada, las recetas de toda la clase ordenadas y la contraportada, vais a unirlo todo y formar vuestro recetario de cocina.</p>
+<p>¡Ya lo tenéis!</p>
+<p><img src="IMG_05_05_paso_8.gif" alt="NIÑOS Y NIÑAS EN UNA COCINA SONRÍEN Y LEVANTAN LAS MANOS UNIDAS INDICANDO ALEGRÍA POR HABER REALIZADO CON ÉXITO EL RECETARIO." title="Misión cumplida" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="281"></p>
+</div>
+<div id="t307d5106-d583-5a68-0bb8-2213a5c8dcba" class="exe-tooltip-text">
+<figure><img src="proponer.png" alt="Imagen que representa a dos personas hablando entre sí. Una de ellas tiene la boca abierta y sale un bocadillo dentro del cual hay una bombilla entre signos de exclamación. " title="Proponer" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Recomendar o presentar una tarea.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Te propongo que escribas una carta.</p>
+</div>
+<div id="te6fadc42-d00d-c1f3-5e9c-61a1b5dd1712" class="exe-tooltip-text">
+<figure><img src="intercambiar.png" alt="Imagen que representa a dos personas que se están intercambiando entre sí una pelota roja y una amarilla." title="Intercambiar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Cambiar mensajes, objetos... con dos o más personas.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Los niños intercambiaron los cromos repetidos.</p>
+</div>
+<div id="teb88351f-b6e5-126f-7b78-dd1fda321eb7" class="exe-tooltip-text">
+<figure><img src="evaluador.png" alt="Dibujo donde se ve en primer plano una hoja de evaluación con varios elementos marcados en verde y un 9 rodeado con un círculo. Al fondo se ve la silueta de una persona. " title="Valorar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Reconocer el mérito y el esfuerzo de una persona.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>El maestro valora el esfuerzo del equipo.</p>
+</div>
+<div id="t4ce529ba-6ead-b27d-86bb-fccfbc1f8e6f" class="exe-tooltip-text">
+<figure><img src="aportar.png" alt="Mujer con pelota roja y flecha señalándola." title="Aportar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Añadir, dar, contribuir.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Su grupo realizó aportaciones muy interesantes sobre el cambio climático.</p>
+</div>
+<div id="tb6c91e46-e99a-c64d-10c5-66ed24b77076" class="exe-tooltip-text">
+<figure><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Revisar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Reunión de todo el grupo para hablar sobre temas de interés común y tomar decisiones.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>En la asamblea decidimos ver una película.</p>
+</div></div><article class="exe-udlContent-content-simplified js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Lectura facilitada</h2></header><div class="lf">
+<p>¡Ha llegado el momento de hacer el reto!</p>
+<p>Ahora voy a ayudaros a hacer vuestro recetario.</p>
+<p>Si me acompañáis os indicaré los pasos:</p>
+<div class="exe-fx exe-accordion">
+<h2>Primero</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="trabajo_cooperativo.png" alt="Dibujo donde se ve una persona vestida con la ropa característica de un detective (gabardina y sombrero) y una lupa en la mano derecha. " title="Trabajo en equipo" style="float: right;" width="125" height="125"></div>
+<div class="exe-col exe-col-2">
+<p>Formad equipos para trabajar.</p>
+<p>Cada grupo <a href="#tdf463fc3-115c-8216-84a5-0e43296e4c50" id="linkdf463fc3-115c-8216-84a5-0e43296e4c50" class="exe-tooltip definition-tt titled-tt" title="Proponer | Proponer">propone</a> platos de cocina en forma de lluvia de ideas.</p>
+<p>Después, elegid las más saludables.</p>
+<p>Utiliza esta rutina para la <a href="lluvia_de_ideas...pdf" target="_blank" title="Abre plantilla para realizar 'Lluvia de ideas'" rel="noopener">lluvia de ideas</a>:</p>
+<ol>
+<li>Ten claro el tema del que se va a hablar.<br><br></li>
+<li>Piensa recetas saludables que te gusten.<br><br></li>
+<li>Propón tus recetas al resto del grupo. ¡Todas valen!<br><br></li>
+<li>Señalad las que creéis que son más saludables. <br><br></li>
+</ol>
+</div>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="elegir.png" alt="Tres personas se encuentran trabajando juntas alrededor de una mesa. " title="Elegir" style="float: right;" width="125" height="125"></div>
+<div class="exe-col exe-col-2">
+<p>Cada persona del equipo elige una receta de las que son saludables.</p>
+<p>Es importante conocer cómo se hace ese plato.</p>
+<p>Si no, podéis investigar cómo se hace ese plato.</p>
+</div>
+<video style="display: block; margin-left: auto; margin-right: auto;" controls="controls" width="560" height="240">
+    <source src="https://edea.juntadeandalucia.es/bancorecursos/file/ad61c679-6ffb-4e54-890a-0a9fb8b55ba8/1/VID_LEN1PRI_REA05_Recetario.mp4" type="video/mp4">
+    <track label="Español" src="VID_LEN1PRI_REA05_Recetario.vtt" kind="subtitles" srclang="es" default=""></video>
+<p style="text-align: center;"><a href="VID_LEN1PRI_REA05_Recetario.txt" target="_blank" title="Abre texto del vídeo" rel="noopener"> Cómo hacer una receta </a></p>
+</div>
+<h2>Segundo</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="escribir_el_titulo.png" alt="Una mano con un lápiz escribe sobre una plantilla en blanco. " title="Escribir la receta" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Cada persona del equipo escribe la receta en una <a href="ESCRIBE_TU_RECETA.pdf" target="_blank" title="Abre plantilla 'Escribe tu receta'" rel="noopener">plantilla como esta</a>.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="dibujar.png" alt="Imagen de unas manos que sujetan un lápiz y dibujan una persona sobre un folio." title="Dibujar" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Podéis poner imágenes de los ingredientes, de los pasos o del resultado final.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="intercambiar.png" alt="Imagen en la que dos personas se intercambian dos pelotas, una de color amarillo y otra rojo." title="Intercambiar" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Después, <a href="#tf59bb926-ddcf-4b95-c00a-0569ec1abd79" id="linkf59bb926-ddcf-4b95-c00a-0569ec1abd79" class="exe-tooltip definition-tt titled-tt" title="Intercambiar | Intercambiar">intercambiad</a> vuestra receta con otra persona del equipo.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Lista de corrección" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Ahora tenéis que <a href="#tbfe47e06-af77-e47b-c21f-326cbe561181" id="linkbfe47e06-af77-e47b-c21f-326cbe561181" class="exe-tooltip definition-tt titled-tt" title="Valorar | Valorar">valorarlas</a> siguiendo <a href="Evaluo_mi_receta.pdf" target="_blank" title="Abre plantilla 'Evalúo mi receta'" rel="noopener">esta lista</a>.</p>
+</div>
+<p><img src="IMG_05_05_PASO2.jpg" alt="Aparece una tabla con indicadores para valorar la receta escrita. Rétor está vestido de cocinero y para valorar cada indicador Rétor aparece en verde y en rojo." title="Valoramos la receta" style="display: block; margin-left: auto; margin-right: auto;" width="499" height="280"></p>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="escribir_el_titulo.png" alt="Una mano con un lápiz escribe sobre una plantilla en blanco. " title="Mejorar la receta" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Por último, mejorad la receta con las <a href="#t17d5634e-295c-4f81-ba18-c3e77f6ffb87" id="link17d5634e-295c-4f81-ba18-c3e77f6ffb87" class="exe-tooltip definition-tt titled-tt" title="Aportación | Aportación">aportaciones</a> de los compañeros y compañeras.</p>
+</div>
+<h2>Tercero</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="IMG_05_05_paso3_1.jpg" alt="Un maestro dialoga con una alumna sobre la hoja que esta le presenta." title="Evaluar el trabajo" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Enseñad a vuestra maestra o maestro vuestra receta para que la <a href="#tf11a0b77-c25b-5ad1-4856-e2a8e9d1acd0" id="linkf11a0b77-c25b-5ad1-4856-e2a8e9d1acd0" class="exe-tooltip definition-tt titled-tt" title="Revisar | Revisar">revise</a>.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="escribir.png" alt="Imagen donde se ve un folio con texto escrito y corregido en rojo y una mano que escribe el texto nuevamente sobre un cuaderno. " title="Reescribir" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Después, escribid la receta corregida en una nueva plantilla.</p>
+</div>
+<h2>Cuarto</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="asamblea.png" alt="Grupo de niños y niñas en semicírculo mirando al frente con la pizarra y el reloj de fondo." title="Asamblea" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Juntaos toda la clase en asamblea.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="desayuno_comida_cena_1.png" alt="Imagen donde se ven tres momentos del día, desayuno, comida y cena, con una flecha en la parte superior. " title="Ordenar" style="float: right;" width="125" height="104"></div>
+<div class="exe-col exe-col-2">
+<p>Ordenad todas las recetas.</p>
+<p>Podéis ordenarlas juntando desayunos, comidas y cenas.</p>
+<p>También las podéis ordenar por orden alfabético.</p>
+</div>
+</div>
+<h2>Quinto</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="trabajo_cooperativo.png" alt="Tres personas se encuentran trabajando juntas alrededor de una mesa. " title="Trabajo en equipo" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">En grupo haced la portada del recetario.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="IMG_05_05_PASO5_1.png" alt="Una portada con cuatro apartados, indica título, hay una ilustración de Rétor en la cocina, indica que se cite a las personas que participan en la elaboración del recetario y el nombre del colegio al que pertenecen." title="Ejemplo de portada" style="float: right;" width="125" height="166"></div>
+<p class="exe-col exe-col-2">No olvidéis incluir todos los apartados que tiene una portada. </p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="lapices_al_centro_1.png" alt="Imagen de tres lápices cruzados entre sí." title="Lápices al centro" style="float: right;" width="125" height="117"></div>
+<div class="exe-col exe-col-2">
+<p>Para hacerla usad la técnica lápices al centro contando lo que haríais antes de crearla.</p>
+<p>Es importante que todas las personas del equipo participen.</p>
+<p>Para hacerlo, podéis ayudaros de una <a href="PORTADA_DEL_RECETARIO.pdf" target="_blank" title="Abre plantilla 'Portada del recetario'" rel="noopener">plantilla como esta</a>.</p>
+</div>
+<h2>Sexto</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="elegir.png" alt="Una persona ante dos colores, azul y rojo, tiene el dedo índice extendido hacia el color rojo. " title="Elegir" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Elegid la portada para el recetario de vuestra clase.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Lista de corrección" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Podéis utilizar una <a href="Evaluo_mi_portada.pdf" target="_blank" title="Abre plantilla 'Evalúo mi portada'" rel="noopener">lista como esta</a> para valorar cada portada. </p>
+</div>
+<p><img src="IMG_05_05_06.jpg" alt="Aparece una tabla con indicadores para valorar la portada. Rétor está vestido de cocinero y para valorar cada indicador Rétor aparece en verde y en rojo." title="Valoramos la portada" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="274"></p>
+<h2>Séptimo</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="asamblea.png" alt="Grupo de niños y niñas en semicírculo mirando al frente con la pizarra y el reloj de fondo." title="Asamblea" style="float: right;" width="125" height="125"></div>
+<p class="exe-col exe-col-2">Juntaos toda la clase en asamblea para elaborar la contraportada.</p>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="detective.png" alt="Dibujo donde se ve una persona vestida con la ropa característica de un detective (gabardina y sombrero) y una lupa en la mano derecha. " title="Detective" style="vertical-align: middle; float: right;" width="125" height="125"></div>
+<div class="exe-col exe-col-2">
+<p>Podéis utilizar la técnica “<a href="https://edea.juntadeandalucia.es/bancorecursos/file/6ad4ad0e-36f1-4599-9ee2-416d9a226360/1/guia_colaborativo_REA_Andalucia.zip/folio_giratorio.html" target="_blank" title="Abre recurso explicativo" rel="noopener">folio giratorio</a>”.</p>
+<video style="display: block; margin-left: auto; margin-right: auto;" controls="controls" width="560" height="240">
+    <source src="https://edea.juntadeandalucia.es/bancorecursos/file/8b627aab-3789-4c91-bde5-dc10b6278d86/1/VID_LEN1PRI_REA04_FolioGiratorio_V01.mp4" type="video/mp4">
+    <track label="Español" src="VID_LEN1PRI_REA04_FolioGiratorio_V01.vtt" kind="subtitles" srclang="es" default=""></video>
+<p style="text-align: center;"><a href="VID_LEN1PRI_REA04_FolioGiratorio_V01.txt" target="_blank" title="Abre texto del vídeo" rel="noopener"> Folio giratorio. </a></p>
+</div>
+</div>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="escribir.png" alt="Imagen en la que se ve una mano escribiendo las letras a, b y c sobre un folio en blanco." title="Escribir" style="float: right;" width="125" height="125"></div>
+<div class="exe-col exe-col-2">Tenéis que escribir de forma breve algunos detalles sobre las recetas del recetario.</div>
+</div>
+<h2>Octavo</h2>
+<div class="exe-layout-2-cols exe-layout-2-30-70 exe-clear">
+<div class="exe-col exe-col-1"><img src="Retor_recetario_1.png" alt="Imagen de Rétor con un recetario en la mano. " title="Rétor recetario" style="float: right;" width="125" height="125"></div>
+<div class="exe-col exe-col-2">
+<p>Ahora tenéis que unir la portada, las recetas y la contraportada.</p>
+<p>¡Ya tenéis vuestro recetario!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tf11a0b77-c25b-5ad1-4856-e2a8e9d1acd0" class="exe-tooltip-text">
+<figure><img src="corregir.png" alt="Imagen donde aparece una hoja con un listado de cosas y una mano que marca en ella lo que está bien con un tick verde y lo que está mal con una cruz roja." title="Revisar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Examinar algo con cuidado y atención.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Es importante revisar el trabajo antes de entregarlo.</p>
+</div>
+<div id="t17d5634e-295c-4f81-ba18-c3e77f6ffb87" class="exe-tooltip-text">
+<figure><img src="aportar.png" alt="Mujer con pelota roja y flecha señalándola." title="Aportar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Añadir, dar, contribuir.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Su grupo realizó aportaciones muy interesantes sobre el cambio climático.</p>
+</div>
+<div id="tbfe47e06-af77-e47b-c21f-326cbe561181" class="exe-tooltip-text">
+<figure><img src="evaluador.png" alt="Dibujo donde se ve en primer plano una hoja de evaluación con varios elementos marcados en verde y un 9 rodeado con un círculo. Al fondo se ve la silueta de una persona. " title="Valorar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Acción de reconocer o darse cuenta del trabajo o esfuerzo de una persona</p>
+<p><strong>Ejemplo:</strong></p>
+<p>El maestro valora el esfuerzo del equipo.</p>
+</div>
+<div id="tf59bb926-ddcf-4b95-c00a-0569ec1abd79" class="exe-tooltip-text">
+<figure><img src="intercambiar.png" alt="Imagen que representa a dos personas que se están intercambiando entre sí una pelota roja y una amarilla." title="Intercambiar" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Cambiar mensajes, objetos... con dos o más personas.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Los niños intercambiaron los cromos repetidos.</p>
+</div>
+<div id="tdf463fc3-115c-8216-84a5-0e43296e4c50" class="exe-tooltip-text">
+<figure><img src="proponer.png" alt="Imagen que representa a dos personas hablando entre sí. Una de ellas tiene la boca abierta y sale un bocadillo dentro del cual hay una bombilla entre signos de exclamación. " title="Proponer" width="500" height="500"></figure>
+<p><strong>Definición:</strong></p>
+<p>Recomendar o presentar una tarea.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Te propongo que escribas una carta.</p>
+</div>
+</div><button class="exe-udlContent-alt-content-hide">Cerrar</button></article><article class="exe-udlContent-content-audio js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Audio</h2></header><p><audio controls="controls" src="AUD_LEN1PRI_REA05_recetario.mp3"><a href="AUD_LEN1PRI_REA05_recetario.mp3">audio/mpeg</a></audio></p><button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-3"><h2><span class="sr-av">Clavis dice </span>Revisa y ordena</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>¿Te has fijado que para ordenar las recetas por momento del día has tenido que pensar antes cuando las comerías? Y si hubieras tenido que ordenarlas alfabéticamente, ¿hubieras pensado en las recetas de la misma forma o hubieras pensado en el abecedario para hacerlo?</p>
+<p>Es importante pensar en la forma más adecuada de hacer lo que la actividad nos pide.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_pasos" id="id138">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">2. ¿Qué he aprendido?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta138_886_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En este último paso te voy a proponer que pienses en qué ha sido lo más importante de todo lo que has aprendido para conseguir el reto que te proponíamos.</p>
+<p>Lo que descubras pensando en ello te servirá para cuando tengas que alcanzar retos parecidos en un futuro.</p>
+<p>¡Para un momento y completa el <strong>PASO 4</strong> de tu <strong>Diario de aprendizaje</strong> (¿Qué he aprendido?)!</p>
+<p>Recuerda:</p>
+<ul>
+<li>Pregunta a tu maestra o maestro si la rellenarás en papel o en el ordenador.</li>
+<li>Si la rellenas en el ordenador, ¡no te olvides de guardarla en tu ordenador cuando la termines!</li>
+</ul>
+<p>¡Ánimo, que lo harás genial!</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_eng_rubrica" id="id193">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">4. ¡Ya lo tenemos!</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta193_899_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="IMG_05_01_1_1.jpg" alt="Rétor lleva un gorro blanco de cocinero, una chaqueta blanca con botones y una bandeja en la mano cubierta por una tapadera redonda." title="Rétor cocinero" style="float: left;" width="125" height="125"></p>
+<p>¡Ya tenéis vuestro recetario de cocina!</p>
+<p>Ahora tenéis que evaluar lo que habéis hecho utilizando esta <a href="Diana_de_autoevaluacion.pdf" target="_blank" title="Abre plantilla 'Diana de autoevaluación'" rel="noopener">diana de autoevaluación</a>.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FileAttachIdeviceInc" id="id208">
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="44_conectando_una_receta.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_recetario_sano_y_saludable.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
